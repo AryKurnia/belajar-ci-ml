@@ -2,7 +2,6 @@
 .venv/
 
 # MLflow local runs (tidak perlu di-commit, CI yang generate)
-mlruns/
 mlartifacts/
 
 # Dataset (biasanya besar)
