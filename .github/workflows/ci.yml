@@ -36,7 +36,7 @@ jobs:
       - name: Run training
         run: |
           source .venv/bin/activate
-          mlflow run . --env-manager local
+          mlflow run project/ --env-manager local
 
       - name: Save mlruns to repo
         working-directory: project
