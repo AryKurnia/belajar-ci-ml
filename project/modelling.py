@@ -11,6 +11,8 @@ import sys
 if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     np.random.seed(40)
+
+    mlflow.set_tracking_uri("file:./mlruns")
  
     file_path = sys.argv[3] if len(sys.argv) > 3 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "train_pca.csv")
     data = pd.read_csv(file_path)
