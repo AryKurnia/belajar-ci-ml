@@ -6,7 +6,6 @@ mlruns/
 mlartifacts/
 
 # Dataset (biasanya besar)
-*.csv
 
 # Python cache
 __pycache__/
