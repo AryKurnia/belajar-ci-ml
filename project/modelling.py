@@ -12,6 +12,9 @@ if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     np.random.seed(40)
 
+
+    # Bersihkan env variable yang bisa konflik
+    os.environ.pop("MLFLOW_RUN_ID", None)
     mlflow.set_tracking_uri("file:./mlruns")
  
     file_path = sys.argv[3] if len(sys.argv) > 3 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "train_pca.csv")
