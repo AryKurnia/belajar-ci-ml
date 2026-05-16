@@ -1,6 +1,6 @@
 name: latihan-cs-mlflow
  
-python_env: python_env.yaml
+python_env: python_env.yml
  
 entry_points:
   main:
