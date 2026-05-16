@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# MLflow local runs (tidak perlu di-commit, CI yang generate)
+mlruns/
+mlartifacts/
+
+# Dataset (biasanya besar)
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+
+# OS
+.DS_Store
+Thumbs.db
