@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/belajar-ci-ml/belajar-ci-ml/project/mlruns/0/a4a44ec0b7a448558476b9bfa99f8598/artifacts
+end_time: 1778990484944
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a4a44ec0b7a448558476b9bfa99f8598
+run_name: judicious-pug-325
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778990360927
+status: 3
+tags: []
+user_id: runner
